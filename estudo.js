@@ -39,5 +39,19 @@ function total(){
    let val = document.getElementById("valor").value;
    let ju = document.getElementById("juros").value;
    let resultado = (val * (1+ (ju/100)));
-  document.write("o resultado é " + resultado);
+   document.write("O resultado é " + resultado);
+}
+// Divisão é /
+// Multiplicação é *
+function soma(){
+   let v1 = document.getElementById("v1").value;
+   let v2 = document.getElementById("v2").value;
+   let r = (Number (v1) + Number (v2));
+   document.getElementById("resultado").innerHTML = r;
+}
+function sub(){
+   let v1 = document.getElementById("v1").value;
+   let v2 = document.getElementById("v2").value;
+   let r = (Number (v1) + Number (v2));
+   document.getElementById("resultado").innerHTML = r;
 }
